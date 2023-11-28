@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+html {
+    font-size: 10px;
+}*/
+
+main {
+    background-color: lightgray;
+    height: 200px;
+}
+
+.purple__line div {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: width 3s ease-in-out;
+}
+
+.purple__line div:hover {
+    /* height: 100px;
+    width: 900px;
+    transition: translateX(900px); */
+    width: 100%;
+
+}
+

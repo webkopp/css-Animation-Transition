@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+html {
+    font-size: 10px;
+}*/
+
+main {
+    background-color: lightgray;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    transform-origin: 0 10%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.purple__line div {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.purple__line div:hover {
+    transform: translateX(900px);
+    transform-origin: 0;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-delay: initial;
+}
+
+.green__line div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.green__line div:hover {
+    transform: translateX(900px);
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+html {
+    font-size: 10px;
+}*/
+
+main {
+    margin: 50px;
+    background-color: lightgray;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+  
+.scale div {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform-origin: 0 10%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.scale div:nth-of-type(1):hover {
+    transform: translate(30px, 30px);
+    background-color: black;
+}
+
+.scale div:nth-of-type(2):hover {
+    transform: translateX(50px);
+}
+
+.scale div:nth-of-type(3):hover {
+    transform: translateY(50px);
+}
+
+.scale div:nth-of-type(4):hover {
+    transform: rotate(90deg);
+}
+
+.scale div:nth-of-type(5):hover {
+    transform: scale(2);
+}
+
+.scale div:nth-of-type(6):hover {
+    transform: skew(10deg);
+}
+

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+html {
+    font-size: 10px;
+}*/
+
+
+main img {
+    box-shadow: 0px 0px 3px 3px purple,;
+}
+
+img:hover {
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    0% 
+    
+}
+
+.schatten {
+    width: 400px;
+    height: 350px;
+    background-color: black;
+    padding-top: 50px;
+
+
+
+}
+
+div {
+    width: 300px;
+    height: 205px;
+    border: 2px solid white;
+    margin: 0 auto;
+
+
+}
+
+div img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+}

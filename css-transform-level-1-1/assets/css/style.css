@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+html {
+    font-size: 10px;
+}*/
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 25px 70px;
+}
+  
+.rotate div {
+    height: 50px;
+    width: 50px;
+    background-color: plum;
+    border-radius: 5px;
+    transform-origin: 20% 20%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.rotate div:hover {
+    transform: rotate(90deg) scale(2);
+}
+
+
